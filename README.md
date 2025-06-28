@@ -46,6 +46,18 @@ Desenvolver um dispositivo embarcado capaz de controlar o acionamento e a temper
 | Estado       | `hana/<ambiente>/aircontrol/<equipamento>/power`    | Assinatura | `"ON"` / `"OFF"` |
 | Temperatura  | `hana/<ambiente>/aircontrol/<equipamento>/temperature` | Assinatura | `"22"`, `"24"`    |
 
+
+## 🛰️ Tópicos MQTT Divididos por alunos
+
+| Ambiente      | Sensor | Aluno   | Tópicos MQTT                                                                 |
+|---------------|--------|---------|------------------------------------------------------------------------------|
+| Mesanino      | 1      | Sergio  | - `hana/mesanino/aircontrol/01/power`<br>- `hana/mesanino/aircontrol/01/temperature` |
+| Externo       | 1      | Claus   | - `hana/mesanino/aircontrol/01/power`<br>- `hana/mesanino/aircontrol/01/temperature` |
+| Externo       | 2      | Daniel  | - `hana/mesanino/aircontrol/02/power`<br>- `hana/mesanino/aircontrol/02/temperature` |
+| Prototipagem  | 1      | Bruno   | - `hana/mesanino/aircontrol/01/power`<br>- `hana/mesanino/aircontrol/01/temperature` |
+
+
+
 ## 🖨️ Desenvolvimento da PCB
 
 - **Não aplicável.** Este projeto não exige o desenvolvimento de uma placa personalizada.

@@ -52,9 +52,9 @@ Desenvolver um dispositivo embarcado capaz de controlar o acionamento e a temper
 | Ambiente      | Sensor | Aluno   | Tópicos MQTT                                                                 |
 |---------------|--------|---------|------------------------------------------------------------------------------|
 | Mesanino      | 1      | Sergio  | - `hana/mesanino/aircontrol/01/power`<br>- `hana/mesanino/aircontrol/01/temperature` |
-| Externo       | 1      | Claus   | - `hana/mesanino/aircontrol/01/power`<br>- `hana/mesanino/aircontrol/01/temperature` |
-| Externo       | 2      | Daniel  | - `hana/mesanino/aircontrol/02/power`<br>- `hana/mesanino/aircontrol/02/temperature` |
-| Prototipagem  | 1      | Bruno   | - `hana/mesanino/aircontrol/01/power`<br>- `hana/mesanino/aircontrol/01/temperature` |
+| Externo       | 1      | Claus   | - `hana/externo/aircontrol/01/power`<br>- `hana/externo/aircontrol/01/temperature` |
+| Externo       | 2      | Daniel  | - `hana/externo/aircontrol/02/power`<br>- `hana/externo/aircontrol/02/temperature` |
+| Prototipagem  | 1      | Bruno   | - `hana/prototipagem/aircontrol/01/power`<br>- `hana/prototipagem/aircontrol/01/temperature` |
 
 
 

@@ -1,0 +1,205 @@
+2025-07-14 19:48:17,302 INFO     [FlashTop]    init
+2025-07-14 19:48:17,312 [Process-13316] INFO     [FlashTop]    do_main: cmd loadpara
+2025-07-14 19:48:17,312 [Process-13316] INFO     [Para]    exe path: C:\Template10_pwmmqtt\Debug
+2025-07-14 19:48:17,323 [Process-13316] INFO     [Para]    update digest file :C:\Template10_pwmmqtt\Debug\cfg.digest, digest:b'\x0b\x5f\xa4\xcb\x01\x02\xe5\x15\xb0\x88\xe2\x24\xfd\xf2\x8d\x8b\x1f\xc0\xd2\x13\xab\x59\x36\x4b\x74\x45\xdd\x9c\x2c\xae\x62\x5b' 
+2025-07-14 19:48:17,323 [Process-13316] INFO     [Para]    LoadPara from cfgfile(C:\Template10_pwmmqtt\Debug\htnb32l.ini) 
+2025-07-14 19:48:17,324 [Process-13316] WARNING  [Para]    Load para curdigest b'\x0b\x5f\xa4\xcb\x01\x02\xe5\x15\xb0\x88\xe2\x24\xfd\xf2\x8d\x8b\x1f\xc0\xd2\x13\xab\x59\x36\x4b\x74\x45\xdd\x9c\x2c\xae\x62\x5b'
+2025-07-14 19:48:17,325 [Process-13316] INFO     [FlashTop]    Load para sync success
+2025-07-14 19:48:17,325 [Process-13316] INFO     [FlashToolCLI]    Burnbatch Start, burn imglist ['bootloader', 'system'].
+2025-07-14 19:48:17,325 [Process-13316] INFO     [FlashTop]    do_main: cmd burnag, Thread0[13700]
+2025-07-14 19:48:17,327 [Process-13316] INFO     [Thread0]    ProcessStart[13700]
+2025-07-14 19:48:18,521 [Process-13316] INFO     [Thread0]    ResetBoard(Normal Mod) finish
+2025-07-14 19:48:18,527 [Process-13316] INFO     [Thread0]    args.ser.port :COM3
+2025-07-14 19:48:18,643 [Process-13316] INFO     [Image]    SetBaud 921600
+2025-07-14 19:48:18,644 [Process-13316] INFO     [Thread0]    TryDownload C:\Template10_pwmmqtt\Debug\agentboot.bin start
+2025-07-14 19:48:18,645 [Process-13316] INFO     [Thread0]    image size=28568, hdsize=272
+2025-07-14 19:48:18,645 [Process-13316] INFO     [Thread0]    Preamble Send
+2025-07-14 19:48:18,699 [Process-13316] INFO     [Thread0]    Preamble Received Rsp
+2025-07-14 19:48:18,774 [Process-13316] INFO     [Thread0]    Preamble Send
+2025-07-14 19:48:18,881 [Process-13316] INFO     [Thread0]    Preamble Received Rsp
+2025-07-14 19:48:21,699 [Process-13316] INFO     [Thread0]    TryDownload agentboot success
+2025-07-14 19:48:21,716 [Process-13316] INFO     [Thread0]    agbaud: 921600
+2025-07-14 19:48:21,821 [Process-13316] INFO     [Thread0]    Burn OK!
+2025-07-14 19:48:21,821 [Process-13316] INFO     [Thread0]    ProcessEnd[13700]
+2025-07-14 19:48:21,821 [Process-13316] INFO     [FlashTop]    do_main: cmd burnone, Thread0[13700]
+2025-07-14 19:48:21,822 [Process-13316] INFO     [Thread0]    ProcessStart[13700]
+2025-07-14 19:48:21,822 [Process-13316] INFO     [Thread0]    args.ser.port :COM3
+2025-07-14 19:48:21,922 [Process-13316] INFO     [Thread0]    agentboot is downloaded already
+2025-07-14 19:48:21,923 [Process-13316] INFO     [Thread0]    TryDownload agentboot skip
+2025-07-14 19:48:21,932 [Process-13316] INFO     [Thread0]    agbaud: 921600
+2025-07-14 19:48:22,030 [Process-13316] INFO     [Thread0]    LPC Preamble Send
+2025-07-14 19:48:22,088 [Process-13316] INFO     [Thread0]    LPC Preamble Received Rsp
+2025-07-14 19:48:22,116 [Process-13316] INFO     [Thread0]    LPCSetSyncStat(1)
+2025-07-14 19:48:22,117 [Process-13316] INFO     [Thread0]    LPCSyncDetect: success
+2025-07-14 19:48:22,117 [Process-13316] INFO     [Thread0]    DownloadBurnOne imgtype(bootloader)
+2025-07-14 19:48:22,117 [Process-13316] INFO     [Thread0]    DownloadBurnOne imgtype(bootloader), burnaddr(0x0), imgid(0x4f424d49)
+2025-07-14 19:48:22,119 [Process-13316] INFO     [Thread0]    DownloadBurnOne file C:\Template10_pwmmqtt\Debug\bootloader.bin 
+2025-07-14 19:48:22,135 [Process-13316] INFO     [Thread0]    TryDownload C:\Template10_pwmmqtt\Debug\bootloader.bin start
+2025-07-14 19:48:22,136 [Process-13316] INFO     [Thread0]    LPCBurnOneTrig start       			******
+2025-07-14 19:48:22,145 [Process-13316] INFO     [Thread0]    LPCBurnOneTrig success
+2025-07-14 19:48:22,145 [Process-13316] INFO     [Thread0]    DLDPreSync Preamble Send
+2025-07-14 19:48:22,701 [Process-13316] INFO     [Thread0]    DLDPreSync Preamble Received Rsp
+2025-07-14 19:48:22,732 [Process-13316] INFO     [Thread0]    image size=29248, hdsize=272
+2025-07-14 19:48:22,732 [Process-13316] INFO     [Thread0]    
+2025-07-14 19:48:22,733 [Process-13316] INFO     [Thread0]    imginfo.size=29248, RemainLen=29248, Offset=0
+2025-07-14 19:48:22,733 [Process-13316] INFO     [Thread0]    {bootloader.bin-percent files transferred   0%}
+2025-07-14 19:48:22,733 [Process-13316] INFO     [Thread0]    
+2025-07-14 19:48:22,733 [Process-13316] INFO     [Thread0]    Preamble Send
+2025-07-14 19:48:22,794 [Process-13316] INFO     [Thread0]    Preamble Received Rsp
+2025-07-14 19:48:22,840 [Process-13316] INFO     [Thread0]    imginfo.size=29248, RemainLen=28976, Offset=272
+2025-07-14 19:48:22,840 [Process-13316] INFO     [Thread0]    {bootloader.bin-percent files transferred   0%}
+2025-07-14 19:48:22,840 [Process-13316] INFO     [Thread0]    
+2025-07-14 19:48:22,840 [Process-13316] INFO     [Thread0]    Preamble Send
+2025-07-14 19:48:23,343 [Process-13316] INFO     [Thread0]    Preamble Received Rsp
+2025-07-14 19:48:23,856 [Process-13316] INFO     [Thread0]    imginfo.size=29248, RemainLen=0, Offset=272
+2025-07-14 19:48:23,856 [Process-13316] INFO     [Thread0]    {bootloader.bin-percent files transferred   100%}
+2025-07-14 19:48:23,857 [Process-13316] INFO     [Thread0]    
+2025-07-14 19:48:23,861 [Process-13316] INFO     [Thread0]    TryDownload success
+2025-07-14 19:48:23,868 [Process-13316] INFO     [Thread0]    Burn OK!
+2025-07-14 19:48:23,868 [Process-13316] INFO     [Thread0]    ProcessEnd[13700]
+2025-07-14 19:48:23,868 [Process-13316] INFO     [FlashTop]    do_main: cmd burnone, Thread0[13700]
+2025-07-14 19:48:23,868 [Process-13316] INFO     [Thread0]    ProcessStart[13700]
+2025-07-14 19:48:23,869 [Process-13316] INFO     [Thread0]    args.ser.port :COM3
+2025-07-14 19:48:23,969 [Process-13316] INFO     [Thread0]    agentboot is downloaded already
+2025-07-14 19:48:23,969 [Process-13316] INFO     [Thread0]    TryDownload agentboot skip
+2025-07-14 19:48:23,979 [Process-13316] INFO     [Thread0]    agbaud: 921600
+2025-07-14 19:48:24,077 [Process-13316] INFO     [Thread0]    LPC Preamble Send
+2025-07-14 19:48:24,138 [Process-13316] INFO     [Thread0]    LPC Preamble Received Rsp
+2025-07-14 19:48:24,167 [Process-13316] INFO     [Thread0]    LPCSyncDetect: success
+2025-07-14 19:48:24,168 [Process-13316] INFO     [Thread0]    DownloadBurnOne imgtype(system)
+2025-07-14 19:48:24,168 [Process-13316] INFO     [Thread0]    DownloadBurnOne imgtype(system), burnaddr(0x0), imgid(0x444b4249)
+2025-07-14 19:48:24,168 [Process-13316] INFO     [Thread0]    DownloadBurnOne file C:\Template10_pwmmqtt\Debug\../Build/Template/HTNB32L-XXX-Template.bin 
+2025-07-14 19:48:24,189 [Process-13316] INFO     [Thread0]    TryDownload C:\Template10_pwmmqtt\Debug\../Build/Template/HTNB32L-XXX-Template.bin start
+2025-07-14 19:48:24,189 [Process-13316] INFO     [Thread0]    LPCBurnOneTrig start       			******
+2025-07-14 19:48:24,198 [Process-13316] INFO     [Thread0]    LPCBurnOneTrig success
+2025-07-14 19:48:24,198 [Process-13316] INFO     [Thread0]    DLDPreSync Preamble Send
+2025-07-14 19:48:24,762 [Process-13316] INFO     [Thread0]    DLDPreSync Preamble Received Rsp
+2025-07-14 19:48:24,794 [Process-13316] INFO     [Thread0]    image size=1476080, hdsize=272
+2025-07-14 19:48:24,795 [Process-13316] INFO     [Thread0]    
+2025-07-14 19:48:24,795 [Process-13316] INFO     [Thread0]    imginfo.size=1476080, RemainLen=1476080, Offset=0
+2025-07-14 19:48:24,796 [Process-13316] INFO     [Thread0]    {HTNB32L-XXX-Template.bin-percent files transferred   0%}
+2025-07-14 19:48:24,796 [Process-13316] INFO     [Thread0]    
+2025-07-14 19:48:24,796 [Process-13316] INFO     [Thread0]    Preamble Send
+2025-07-14 19:48:24,854 [Process-13316] INFO     [Thread0]    Preamble Received Rsp
+2025-07-14 19:48:24,902 [Process-13316] INFO     [Thread0]    imginfo.size=1476080, RemainLen=1475808, Offset=272
+2025-07-14 19:48:24,903 [Process-13316] INFO     [Thread0]    {HTNB32L-XXX-Template.bin-percent files transferred   0%}
+2025-07-14 19:48:24,903 [Process-13316] INFO     [Thread0]    
+2025-07-14 19:48:24,904 [Process-13316] INFO     [Thread0]    Preamble Send
+2025-07-14 19:48:25,010 [Process-13316] INFO     [Thread0]    Preamble Received Rsp
+2025-07-14 19:48:25,933 [Process-13316] INFO     [Thread0]    imginfo.size=1476080, RemainLen=1410272, Offset=65808
+2025-07-14 19:48:25,933 [Process-13316] INFO     [Thread0]    {HTNB32L-XXX-Template.bin-percent files transferred   4%}
+2025-07-14 19:48:25,933 [Process-13316] INFO     [Thread0]    
+2025-07-14 19:48:25,934 [Process-13316] INFO     [Thread0]    Preamble Send
+2025-07-14 19:48:25,990 [Process-13316] INFO     [Thread0]    Preamble Received Rsp
+2025-07-14 19:48:26,913 [Process-13316] INFO     [Thread0]    imginfo.size=1476080, RemainLen=1344736, Offset=131344
+2025-07-14 19:48:26,915 [Process-13316] INFO     [Thread0]    {HTNB32L-XXX-Template.bin-percent files transferred   8%}
+2025-07-14 19:48:26,915 [Process-13316] INFO     [Thread0]    
+2025-07-14 19:48:26,915 [Process-13316] INFO     [Thread0]    Preamble Send
+2025-07-14 19:48:26,974 [Process-13316] INFO     [Thread0]    Preamble Received Rsp
+2025-07-14 19:48:27,898 [Process-13316] INFO     [Thread0]    imginfo.size=1476080, RemainLen=1279200, Offset=196880
+2025-07-14 19:48:27,898 [Process-13316] INFO     [Thread0]    {HTNB32L-XXX-Template.bin-percent files transferred   13%}
+2025-07-14 19:48:27,898 [Process-13316] INFO     [Thread0]    
+2025-07-14 19:48:27,899 [Process-13316] INFO     [Thread0]    Preamble Send
+2025-07-14 19:48:27,957 [Process-13316] INFO     [Thread0]    Preamble Received Rsp
+2025-07-14 19:48:28,884 [Process-13316] INFO     [Thread0]    imginfo.size=1476080, RemainLen=1213664, Offset=262416
+2025-07-14 19:48:28,885 [Process-13316] INFO     [Thread0]    {HTNB32L-XXX-Template.bin-percent files transferred   17%}
+2025-07-14 19:48:28,885 [Process-13316] INFO     [Thread0]    
+2025-07-14 19:48:28,886 [Process-13316] INFO     [Thread0]    Preamble Send
+2025-07-14 19:48:28,941 [Process-13316] INFO     [Thread0]    Preamble Received Rsp
+2025-07-14 19:48:29,865 [Process-13316] INFO     [Thread0]    imginfo.size=1476080, RemainLen=1148128, Offset=327952
+2025-07-14 19:48:29,865 [Process-13316] INFO     [Thread0]    {HTNB32L-XXX-Template.bin-percent files transferred   22%}
+2025-07-14 19:48:29,866 [Process-13316] INFO     [Thread0]    
+2025-07-14 19:48:29,866 [Process-13316] INFO     [Thread0]    Preamble Send
+2025-07-14 19:48:29,923 [Process-13316] INFO     [Thread0]    Preamble Received Rsp
+2025-07-14 19:48:30,848 [Process-13316] INFO     [Thread0]    imginfo.size=1476080, RemainLen=1082592, Offset=393488
+2025-07-14 19:48:30,849 [Process-13316] INFO     [Thread0]    {HTNB32L-XXX-Template.bin-percent files transferred   26%}
+2025-07-14 19:48:30,849 [Process-13316] INFO     [Thread0]    
+2025-07-14 19:48:30,849 [Process-13316] INFO     [Thread0]    Preamble Send
+2025-07-14 19:48:30,906 [Process-13316] INFO     [Thread0]    Preamble Received Rsp
+2025-07-14 19:48:31,831 [Process-13316] INFO     [Thread0]    imginfo.size=1476080, RemainLen=1017056, Offset=459024
+2025-07-14 19:48:31,831 [Process-13316] INFO     [Thread0]    {HTNB32L-XXX-Template.bin-percent files transferred   31%}
+2025-07-14 19:48:31,831 [Process-13316] INFO     [Thread0]    
+2025-07-14 19:48:31,832 [Process-13316] INFO     [Thread0]    Preamble Send
+2025-07-14 19:48:31,889 [Process-13316] INFO     [Thread0]    Preamble Received Rsp
+2025-07-14 19:48:32,813 [Process-13316] INFO     [Thread0]    imginfo.size=1476080, RemainLen=951520, Offset=524560
+2025-07-14 19:48:32,813 [Process-13316] INFO     [Thread0]    {HTNB32L-XXX-Template.bin-percent files transferred   35%}
+2025-07-14 19:48:32,813 [Process-13316] INFO     [Thread0]    
+2025-07-14 19:48:32,815 [Process-13316] INFO     [Thread0]    Preamble Send
+2025-07-14 19:48:32,871 [Process-13316] INFO     [Thread0]    Preamble Received Rsp
+2025-07-14 19:48:33,796 [Process-13316] INFO     [Thread0]    imginfo.size=1476080, RemainLen=885984, Offset=590096
+2025-07-14 19:48:33,796 [Process-13316] INFO     [Thread0]    {HTNB32L-XXX-Template.bin-percent files transferred   39%}
+2025-07-14 19:48:33,796 [Process-13316] INFO     [Thread0]    
+2025-07-14 19:48:33,797 [Process-13316] INFO     [Thread0]    Preamble Send
+2025-07-14 19:48:33,853 [Process-13316] INFO     [Thread0]    Preamble Received Rsp
+2025-07-14 19:48:34,779 [Process-13316] INFO     [Thread0]    imginfo.size=1476080, RemainLen=820448, Offset=655632
+2025-07-14 19:48:34,779 [Process-13316] INFO     [Thread0]    {HTNB32L-XXX-Template.bin-percent files transferred   44%}
+2025-07-14 19:48:34,779 [Process-13316] INFO     [Thread0]    
+2025-07-14 19:48:34,781 [Process-13316] INFO     [Thread0]    Preamble Send
+2025-07-14 19:48:34,841 [Process-13316] INFO     [Thread0]    Preamble Received Rsp
+2025-07-14 19:48:35,768 [Process-13316] INFO     [Thread0]    imginfo.size=1476080, RemainLen=754912, Offset=721168
+2025-07-14 19:48:35,768 [Process-13316] INFO     [Thread0]    {HTNB32L-XXX-Template.bin-percent files transferred   48%}
+2025-07-14 19:48:35,768 [Process-13316] INFO     [Thread0]    
+2025-07-14 19:48:35,770 [Process-13316] INFO     [Thread0]    Preamble Send
+2025-07-14 19:48:35,826 [Process-13316] INFO     [Thread0]    Preamble Received Rsp
+2025-07-14 19:48:36,755 [Process-13316] INFO     [Thread0]    imginfo.size=1476080, RemainLen=689376, Offset=786704
+2025-07-14 19:48:36,755 [Process-13316] INFO     [Thread0]    {HTNB32L-XXX-Template.bin-percent files transferred   53%}
+2025-07-14 19:48:36,755 [Process-13316] INFO     [Thread0]    
+2025-07-14 19:48:36,756 [Process-13316] INFO     [Thread0]    Preamble Send
+2025-07-14 19:48:36,813 [Process-13316] INFO     [Thread0]    Preamble Received Rsp
+2025-07-14 19:48:37,739 [Process-13316] INFO     [Thread0]    imginfo.size=1476080, RemainLen=623840, Offset=852240
+2025-07-14 19:48:37,739 [Process-13316] INFO     [Thread0]    {HTNB32L-XXX-Template.bin-percent files transferred   57%}
+2025-07-14 19:48:37,739 [Process-13316] INFO     [Thread0]    
+2025-07-14 19:48:37,740 [Process-13316] INFO     [Thread0]    Preamble Send
+2025-07-14 19:48:37,797 [Process-13316] INFO     [Thread0]    Preamble Received Rsp
+2025-07-14 19:48:38,721 [Process-13316] INFO     [Thread0]    imginfo.size=1476080, RemainLen=558304, Offset=917776
+2025-07-14 19:48:38,721 [Process-13316] INFO     [Thread0]    {HTNB32L-XXX-Template.bin-percent files transferred   62%}
+2025-07-14 19:48:38,722 [Process-13316] INFO     [Thread0]    
+2025-07-14 19:48:38,722 [Process-13316] INFO     [Thread0]    Preamble Send
+2025-07-14 19:48:38,780 [Process-13316] INFO     [Thread0]    Preamble Received Rsp
+2025-07-14 19:48:39,702 [Process-13316] INFO     [Thread0]    imginfo.size=1476080, RemainLen=492768, Offset=983312
+2025-07-14 19:48:39,702 [Process-13316] INFO     [Thread0]    {HTNB32L-XXX-Template.bin-percent files transferred   66%}
+2025-07-14 19:48:39,702 [Process-13316] INFO     [Thread0]    
+2025-07-14 19:48:39,703 [Process-13316] INFO     [Thread0]    Preamble Send
+2025-07-14 19:48:39,761 [Process-13316] INFO     [Thread0]    Preamble Received Rsp
+2025-07-14 19:48:40,687 [Process-13316] INFO     [Thread0]    imginfo.size=1476080, RemainLen=427232, Offset=1048848
+2025-07-14 19:48:40,687 [Process-13316] INFO     [Thread0]    {HTNB32L-XXX-Template.bin-percent files transferred   71%}
+2025-07-14 19:48:40,688 [Process-13316] INFO     [Thread0]    
+2025-07-14 19:48:40,688 [Process-13316] INFO     [Thread0]    Preamble Send
+2025-07-14 19:48:40,745 [Process-13316] INFO     [Thread0]    Preamble Received Rsp
+2025-07-14 19:48:41,673 [Process-13316] INFO     [Thread0]    imginfo.size=1476080, RemainLen=361696, Offset=1114384
+2025-07-14 19:48:41,673 [Process-13316] INFO     [Thread0]    {HTNB32L-XXX-Template.bin-percent files transferred   75%}
+2025-07-14 19:48:41,673 [Process-13316] INFO     [Thread0]    
+2025-07-14 19:48:41,674 [Process-13316] INFO     [Thread0]    Preamble Send
+2025-07-14 19:48:41,731 [Process-13316] INFO     [Thread0]    Preamble Received Rsp
+2025-07-14 19:48:42,668 [Process-13316] INFO     [Thread0]    imginfo.size=1476080, RemainLen=296160, Offset=1179920
+2025-07-14 19:48:42,668 [Process-13316] INFO     [Thread0]    {HTNB32L-XXX-Template.bin-percent files transferred   79%}
+2025-07-14 19:48:42,668 [Process-13316] INFO     [Thread0]    
+2025-07-14 19:48:42,669 [Process-13316] INFO     [Thread0]    Preamble Send
+2025-07-14 19:48:42,726 [Process-13316] INFO     [Thread0]    Preamble Received Rsp
+2025-07-14 19:48:43,657 [Process-13316] INFO     [Thread0]    imginfo.size=1476080, RemainLen=230624, Offset=1245456
+2025-07-14 19:48:43,657 [Process-13316] INFO     [Thread0]    {HTNB32L-XXX-Template.bin-percent files transferred   84%}
+2025-07-14 19:48:43,657 [Process-13316] INFO     [Thread0]    
+2025-07-14 19:48:43,659 [Process-13316] INFO     [Thread0]    Preamble Send
+2025-07-14 19:48:43,715 [Process-13316] INFO     [Thread0]    Preamble Received Rsp
+2025-07-14 19:48:44,637 [Process-13316] INFO     [Thread0]    imginfo.size=1476080, RemainLen=165088, Offset=1310992
+2025-07-14 19:48:44,637 [Process-13316] INFO     [Thread0]    {HTNB32L-XXX-Template.bin-percent files transferred   88%}
+2025-07-14 19:48:44,637 [Process-13316] INFO     [Thread0]    
+2025-07-14 19:48:44,639 [Process-13316] INFO     [Thread0]    Preamble Send
+2025-07-14 19:48:44,695 [Process-13316] INFO     [Thread0]    Preamble Received Rsp
+2025-07-14 19:48:45,622 [Process-13316] INFO     [Thread0]    imginfo.size=1476080, RemainLen=99552, Offset=1376528
+2025-07-14 19:48:45,622 [Process-13316] INFO     [Thread0]    {HTNB32L-XXX-Template.bin-percent files transferred   93%}
+2025-07-14 19:48:45,623 [Process-13316] INFO     [Thread0]    
+2025-07-14 19:48:45,623 [Process-13316] INFO     [Thread0]    Preamble Send
+2025-07-14 19:48:45,680 [Process-13316] INFO     [Thread0]    Preamble Received Rsp
+2025-07-14 19:48:46,609 [Process-13316] INFO     [Thread0]    imginfo.size=1476080, RemainLen=34016, Offset=1442064
+2025-07-14 19:48:46,610 [Process-13316] INFO     [Thread0]    {HTNB32L-XXX-Template.bin-percent files transferred   97%}
+2025-07-14 19:48:46,610 [Process-13316] INFO     [Thread0]    
+2025-07-14 19:48:46,610 [Process-13316] INFO     [Thread0]    Preamble Send
+2025-07-14 19:48:46,850 [Process-13316] INFO     [Thread0]    Preamble Received Rsp
+2025-07-14 19:48:47,434 [Process-13316] INFO     [Thread0]    imginfo.size=1476080, RemainLen=0, Offset=1442064
+2025-07-14 19:48:47,434 [Process-13316] INFO     [Thread0]    {HTNB32L-XXX-Template.bin-percent files transferred   100%}
+2025-07-14 19:48:47,435 [Process-13316] INFO     [Thread0]    
+2025-07-14 19:48:47,437 [Process-13316] INFO     [Thread0]    TryDownload success
+2025-07-14 19:48:47,443 [Process-13316] INFO     [Thread0]    Burn OK!
+2025-07-14 19:48:47,443 [Process-13316] INFO     [Thread0]    ProcessEnd[13700]
+2025-07-14 19:48:47,443 [Process-13316] INFO     [FlashToolCLI]    Burnbatch OK, imglist ['bootloader', 'system']
